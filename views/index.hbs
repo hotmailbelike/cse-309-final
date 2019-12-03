@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="/css/style.css" />
+	<title>Review Submit</title>
+</head>
+
+
+<body>
+	<!-- START HERE -->
+	<div class="container">
+		<h1>New Review</h1>
+		<form>
+			<input required type="text" name="name" id="name" placeholder="REVIEWER NAME"><br>
+			<input style="width: 25%;" min="1" max="5" required class="mt-3" type="number" name="rating" id="rating" placeholder="RATING (1 TO 5)"><br>
+			<textarea required class="mt-3" name="comment" id="comment" cols="30" rows="10" placeholder="REVIEW COMMENT"></textarea>
+			<br>
+			<button type="submit" class="btn btn-dark">ADD</button>
+		</form>
+	</div>
+
+
+
+	<script src="/script/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="/script/script.js"></script>
+</body>
+
+</html>

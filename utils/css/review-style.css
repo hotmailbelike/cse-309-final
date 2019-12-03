@@ -1,0 +1,20 @@
+body {
+	background: rgb(185, 185, 185);
+
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+.rounded {
+	/* text-align: center; */
+	background: rgb(29, 0, 82);
+	color: white;
+	border: 1px solid rgb(29, 0, 82);
+	width: 50%;
+	height: auto;
+	/* background-color: #bbb; */
+	border-radius: 50% !important;
+
+	display: inline-block;
+}
